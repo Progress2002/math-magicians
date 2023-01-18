@@ -1,0 +1,23 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.flex-container {
+  display: flex;
+  width: 1200px;
+  justify-content: space-between;
+}
+
+.calculator-intro {
+  font-family: serif;
+  font-size: 5rem;
+  width: 100%;
+  text-align: center;
+}
+
+.flex-item {
+  width: 80%;
+  height: 500px;
+}
