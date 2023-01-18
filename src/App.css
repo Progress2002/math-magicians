@@ -1,66 +1,64 @@
+:root {
+  --primary-color: #21637b;
+  --secondary-color: rgb(0, 0, -19);
+  --white-color: #fff;
+  --tertiary-color: wheat;
+}
+
 * {
-  padding: 0;
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
+  list-style-type: none;
+}
+
+h2 {
+  color: #042c4f;
 }
 
 body {
-  height: 100vh;
+  padding: 0 20px;
+}
+
+header {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  height: 80px;
 }
 
-.Application {
-  width: 45vw;
-}
-
-.answerDisplay {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  height: 50px;
-  background-color: rgb(145, 142, 142);
-  padding: 8px;
-  color: white;
-  font-size: 20px;
-}
-
-.btnContainer {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(5, 45px);
-}
-
-button {
-  cursor: pointer;
-  border: 1px solid #c7c7c7;
-  background-color: #f2eded;
+.logo {
+  font-size: 40px;
   font-weight: bolder;
+  color: #042c4f;
 }
 
-button:hover {
-  background-color: #a4a3a3b9;
-  color: #fff;
+nav ul {
+  display: flex;
+  gap: 5px;
 }
 
-button:active {
-  background-color: #3e3d3db9;
+nav ul li {
+  border-right: 2px solid var(--secondary-color);
+  padding: 5px 8px 5px 0;
 }
 
-.zero {
-  grid-column: 1/span 2;
+nav ul li:nth-child(3) {
+  border-right: none;
 }
 
-.mathOperation {
-  background-color: #f5913e;
+nav ul li .link {
+  text-decoration: none;
+  font-weight: bolder;
+  padding: 5px 8px;
+  font-size: 18px;
+  color: var(--primary-color);
+  letter-spacing: 1px;
+  transition: all 0.3s linear;
 }
 
-.mathOperation:hover {
-  background-color: #e86c06;
-}
-
-.mathOperation:active {
-  background-color: #f5913e;
+nav ul li .link:hover {
+  background-color: var(--primary-color);
+  color: var(--white-color);
 }

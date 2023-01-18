@@ -1,0 +1,16 @@
+.quote-container {
+  display: flex;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+}
+
+.quote-container h2 {
+  width: 80%;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.quote-container h2 span {
+  color: rgb(133, 10, 10);
+}

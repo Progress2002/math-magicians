@@ -1,0 +1,59 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.Application {
+  width: 100%;
+}
+
+.answerDisplay {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 70px;
+  background-color: #3c3939b9;
+  padding: 10px;
+  color: white;
+  font-size: 25px;
+}
+
+.btnContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 80px);
+}
+
+button {
+  font-size: 20px;
+  cursor: pointer;
+  border: 1px solid #c7c7c7;
+  background-color: #f2eded;
+  font-weight: bolder;
+}
+
+button:hover {
+  background-color: #676464b9;
+  color: #fff;
+}
+
+button:active {
+  background-color: #3e3d3db9;
+}
+
+.zero {
+  grid-column: 1/span 2;
+}
+
+.mathOperation {
+  background-color: #f5913e;
+}
+
+.mathOperation:hover {
+  background-color: #e86c06;
+}
+
+.mathOperation:active {
+  background-color: #f5913e;
+}
