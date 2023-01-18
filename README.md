@@ -69,7 +69,7 @@
 
 
 
-- [Live Demo Link](https://progress2002.github.io/math-magicians/dist/)
+- [Live Demo Link](https://progress2002.github.io/math-magicians/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
